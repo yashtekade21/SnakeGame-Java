@@ -139,7 +139,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
 
     public void gameOver(Graphics g) {
-        g.setColor(Color.RED);
+        g.setColor(Color.GREEN);
         g.setFont(new Font("Comic Sans", Font.BOLD, 40));
         FontMetrics metrics = getFontMetrics(g.getFont());
         g.drawString("Game Over", (WIDTH - metrics.stringWidth("Game Over")) / 2, HEIGHT / 2);
